@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="DefaultButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">#68CB2B</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.SmallRounded</item>
+    </style>
+
+    <style name="BackButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">#e6001f</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.SmallRounded</item>
+    </style>
+
+
+
+    <style name="ShapeAppearance.SmallRounded" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">3dp</item>
+    </style>
+
+
+    <style name="Base.Theme.SP_SubjectManager" parent="Theme.Material3.Dark.NoActionBar">
+    </style>
+
+    <style name="Theme.SP_SubjectManager" parent="Base.Theme.SP_SubjectManager">
+        <item name="android:textColor">#954FA7</item>
+
+        <item name="materialButtonStyle">@style/DefaultButton</item>
+    </style>
+
+</resources>
